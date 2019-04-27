@@ -17,7 +17,7 @@
         (make-fond-text *font* "Here it is!")))
 
 (defun test-change-text ()
-  (update-text *some-text* "Woooooo!"))
+  (update-fond-text *some-text* "Woooooo!"))
 
 (defun test-draw-text ()
   (let* ((res (viewport-resolution (current-viewport)))

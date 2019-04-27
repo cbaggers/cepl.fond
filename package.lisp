@@ -8,5 +8,5 @@
            :fond-text
            :make-fond-font
            :make-fond-text
-           :update-text
+           :update-fond-text
            :fond-draw-simple))

@@ -7,4 +7,6 @@
   :serial t
   :depends-on (#:cl-fond #:cepl)
   :components ((:file "package")
+               (:file "types")
+               (:file "render")
                (:file "base")))
