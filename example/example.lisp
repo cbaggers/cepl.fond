@@ -25,4 +25,4 @@
     (clear)
     (fond-draw-simple *some-text* extent)
     (swap)
-    text-obj))
+    *some-text*))
