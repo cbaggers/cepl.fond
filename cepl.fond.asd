@@ -5,8 +5,6 @@
   :author "Chris Bagley (Baggers) <techsnuffle@gmail.com>"
   :license "BSD 2 Clause"
   :serial t
-  :depends-on (#:rtg-math
-               #:rtg-math.vari
-               #:cl-fond)
+  :depends-on (#:cl-fond #:cepl)
   :components ((:file "package")
                (:file "base")))
